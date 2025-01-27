@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgb(210, 230, 223);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+    .left-div {
+        width: 460px;
+        height: 275px;
+        top: 205px;
+        left: 140px;
+        padding: 200px 60px 400px 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .logo {
+            img {
+                width: 50px;
+            }
+        }
+
+        .indi-par {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h2 {
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 300;
+            }
+
+            p {
+                color: gray;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+
+        :hover {
+            border-color: rgb(99, 99, 167);
+            border-width: 10px;
+        }
+    }
+
+    .right-div {
+        width: 600px;
+        height: 550px;
+        top: 81px;
+        left: 720px;
+        /* border-radius: 6px; */
+        background-color: white;
+        margin-top: 50px;
+        margin-right: 30px;
+        margin-bottom: 50px;
+        padding: 50px;
+        border-radius: 10px;
+        
+        .form-div {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .sect1 {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 100px;
+                
+
+                .sect1-first-div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    :hover {
+                        border-color: rgb(210, 230, 223);
+                    }
+
+                    .sect1-first-div-label {
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                    .sect1-first-div-input {
+                        padding: 5px;
+                    }
+                }
+
+                .sect1-second-div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    :hover {
+                        border-color: rgb(210, 230, 223);
+                    }
+
+                    .sect1-second-div-label {
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                    .sect1-second-div-input {
+                        padding: 5px;
+                    }
+                }
+            }
+
+            .sect2 {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 100px;
+
+                .sect2-first-div {
+                    display: flex;
+                    flex-direction: column;
+
+                    :hover {
+                        border-color: rgb(210, 230, 223);
+                    }
+
+                    .sect2-first-div-label {
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                    .sect2-first-div-input {
+                        padding: 5px;
+                    }
+                }
+
+                .sect2-second-div {
+                    display: flex;
+                    flex-direction: column;
+
+                    :hover {
+                        border-color: rgb(210, 230, 223);
+                    }
+
+                    .sect2-second-div-label {
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                    .sect2-second-div-input {
+                        padding: 5px;
+                    }
+                }
+
+                
+            }
+
+            .sect3 {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 100px;
+
+                .sect3-first-div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    :hover {
+                        border-color: rgb(210, 230, 223);
+                    }
+
+                    .sect3-first-div-label {
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                    .sect3-first-div-input {
+                        padding: 5px;
+                    }
+                }
+
+                .sect3-second-div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    :hover {
+                        border-color: rgb(210, 230, 223);
+                    }
+
+                    .sect3-second-div-label {
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                    .sect3-second-div-input {
+                        padding: 5px;
+                    }
+                    
+                }
+            }
+            .sect4 {
+                display: grid;
+                grid-template-rows: repeat(2, 1fr);
+
+                :hover {
+                    border-color: rgb(210, 230, 223);
+                }
+
+                .sect4-div-label {
+                    font-family: 'Courier New', Courier, monospace;
+                }
+                .sect4-div-input {
+                    padding: 5px;
+                }
+            }
+            .sect5 {
+                display: grid;
+                grid-row: 1fr; 
+
+                :hover {
+                    border-color: rgb(210, 230, 223);
+                }
+
+                .sect5-passwd {
+                    font-family: 'Courier New', Courier, monospace;
+                }
+                .sect5-input {
+                    padding: 5px;
+                }
+            }
+            .sect6 {
+                display: grid;
+                grid-row: 1fr;
+
+                :hover {
+                    border-color: rgb(210, 230, 223);
+                }
+
+                .sect6-input {
+                    padding: 5px;
+                    color: white;
+                    background-color: green;
+                }
+            }
+
+            p span {
+                color: green;
+                font-size: small;
+            }
+        }
+
+
+        
+    }
+
+
+    
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .container {
+        background-color: rgb(210, 230, 223);
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        /* align-items: center; */
+
+        .left-div {
+            width: 500px;
+            height: 100px;
+            top: 100px;
+            left: 50px;
+            padding: 30px 50px;
+            padding-left: 40px;
+            padding-bottom: 90px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            /* margin: 30px; */
+            margin-bottom: 50px;
+
+            .logo  {
+                .indi-par {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1px;
+                }
+            }
+
+        }
+
+        .right-div {
+            margin: 50px 15px 5px 15px;
+            padding: 30px;
+            width: 470px;
+            height: 600px;
+            top: 286px;
+            left: 24px;
+            display: flex;
+            flex-direction: column;
+
+
+
+
+            .form-div {
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+                /* height: 800px; */
+                /* margin-bottom: 200px; */
+                /* padding-bottom: 200px; */
+
+                .sect1 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    .sect1-first-div {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+    
+                        :hover {
+                            border-color: rgb(210, 230, 223);
+                        }
+    
+                        .sect1-first-div-label {
+                            font-family: 'Courier New', Courier, monospace;
+                        }
+                        .sect1-first-div-input {
+                            padding: 5px;
+                        }
+                    }
+
+                    .sect1-second-div {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+    
+                        :hover {
+                            border-color: rgb(210, 230, 223);
+                        }
+    
+                        .sect1-second-div-label {
+                            font-family: 'Courier New', Courier, monospace;
+                        }
+                        .sect1-second-div-input {
+                            padding: 5px;
+                        }
+                    }
+                }
+
+                .sect2 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    .sect2-first-div {
+                        display: flex;
+                        flex-direction: column;
+    
+                        :hover {
+                            border-color: rgb(210, 230, 223);
+                        }
+    
+                        .sect2-first-div-label {
+                            font-family: 'Courier New', Courier, monospace;
+                        }
+                        .sect2-first-div-input {
+                            padding: 5px;
+                        }
+                    }
+
+                    .sect2-second-div {
+                        display: flex;
+                        flex-direction: column;
+    
+                        :hover {
+                            border-color: rgb(210, 230, 223);
+                        }
+    
+                        .sect2-second-div-label {
+                            font-family: 'Courier New', Courier, monospace;
+                        }
+                        .sect2-second-div-input {
+                            padding: 5px;
+                        }
+                    }
+                }
+
+                .sect3 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    .sect3-first-div {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+    
+                        :hover {
+                            border-color: rgb(210, 230, 223);
+                        }
+    
+                        .sect3-first-div-label {
+                            font-family: 'Courier New', Courier, monospace;
+                        }
+                        .sect3-first-div-input {
+                            padding: 5px;
+                        }
+                    }
+    
+                    .sect3-second-div {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+    
+                        :hover {
+                            border-color: rgb(210, 230, 223);
+                        }
+    
+                        .sect3-second-div-label {
+                            font-family: 'Courier New', Courier, monospace;
+                        }
+                        .sect3-second-div-input {
+                            padding: 5px;
+                        }
+                        
+                    }
+
+                    .sect4 {
+                        gap: 5px;
+                    }
+
+                    .sect5 {
+                        gap: 5px;
+                    }
+                }
+
+                p {
+                    padding-top: 50px;
+                }
+            }
+        }
+    }    
+}

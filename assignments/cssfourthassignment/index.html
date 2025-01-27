@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>fourth css assignment</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-div">
+            <div class="logo">
+                <img src="assests/image/Landing logo.png" alt="landing-logo">
+            </div>
+            <div class="indi-par">
+                <h2>For Individuals</h2>
+                <p>
+                    Start benefitting from the wellness experience. For 
+                    companies looking on increasing productivity, and improving
+                    organization wellness.
+                </p>
+            </div>
+        </div>
+        <div class="right-div">
+            <form action="" class="form-div">
+                <section1 class="sect1">
+                    <div class="sect1-first-div">
+                        <label class="sect1-first-div-label" for="firstname">First Name</label>
+                        <input class="sect1-first-div-input" type="text" name="firstname" placeholder="firstname" id="firstname" required/>
+                    </div>
+                    <div class="sect1-second-div">
+                        <label class="sect1-second-div-label" for="lastname">Last Name</label>
+                        <input class="sect1-second-div-input" type="text" name="lastname" placeholder="lastname" id="lastname" required/>
+                    </div>
+                </section1>
+
+                <section2 class="sect2">
+                        <div class="sect2-first-div">
+                            <label class="sect2-first-div-label for="gender">Gender</label><br>
+                            <select class="sect2-first-div-input" name="gender" id="gender-select" required>
+                                <option value="" disabled>Select here</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="sect2-second-div">
+                            <label class="sect2-second-div-label" for="DoB">Date of Birth</label><br>
+                            <input class="sect2-second-div-input" type="date" name="DoB" id="DoB" required/>
+                        </div>
+                </section2>
+
+                <section3 class="sect3">
+                    <div class="sect3-first-div">
+                        <label class="sect3-first-div-label for="weight">weight (KG)</label>
+                        <input class="sect3-first-div-input" type="number" placeholder="weight" id="weight" required/>
+                    </div>
+                    <div class="sect3-second-div">
+                        <label class="sect3-second-div-label" for="height">Height (CM)</label>
+                        <input class="sect3-second-div-input" type="number" placeholder="height" id="height" required/>
+                    </div>
+                </section3>
+
+                <section4 class="sect4">
+                    <label class="sect4-div-label" for="activity-level">Activity Level</label>
+                    <select class="sect4-div-input" name="activity-level" id="activity-level" >
+                        <option value="" disabled>choose here</option>
+                        <option value="online">online</option>
+                        <option value="offline">offline</option>
+                    </select>
+                </section4>
+
+                <section5 class="sect5">
+                    <label class="sect5-passwd" for="password">Password</label><br>
+                    <input class="sect5-input" type="password" name="password" id="password" placeholder="Enter password" required/>
+                </section5>
+
+                <section6 class="sect6">
+                    <input class="sect6-input" type="submit" value="Register">
+                </section6>
+                <p>
+                    By clicking Register, you agree to our <span>Terms of Use</span> and our <span>Privacy Policy</span>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

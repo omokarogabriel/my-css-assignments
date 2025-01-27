@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>css fifth assignment</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <section class="nav">
+          <div class="logo">
+            <img
+              src="assests/image/wppusher-logo copy.png"
+              alt="wppusher-logo"
+            />
+          </div>
+          <div class="navlinks">
+            <ul>
+              <li>
+                <a href="#">Download</a>
+              </li>
+              <li>
+                <a href="#">Learn more</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Help</a>
+              </li>
+              <li>
+                <a href="#">Account</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="hori-nav">
+          <hr />
+        </div>
+      </div>
+
+      
+
+      <div class="main">
+        <!-- left div -->
+        <div class="left-main">
+          <div class="form-div">
+            <div class="first-sect">
+              <h1>Checkout</h1>
+              <hr />
+            </div>
+
+            <div class="second-sect">
+              <div class="second-sect1">
+                <p>
+                    <img src="assests/image/number-5433251_1280.png" alt="number 1">
+                </p>
+                <h4>Your basic information</h4>
+              </div>
+
+              <div class="second-sect2">
+                <div class="firstlastname">
+                  <div class="firstname">
+                    <label for="firstname">First Name</label><br />
+                    <input
+                      type="text"
+                      placeholder="John"
+                      name="firstname"
+                      id="firstname"
+                      required
+                    />
+                  </div>
+                  <div class="lastname">
+                    <label for="lastname">Last Name</label><br />
+                    <input
+                      type="text"
+                      placeholder="Doe"
+                      name="lastname"
+                      id="lastname"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="email">
+                  <label for="email">E-mail</label><br />
+                  <input
+                    type="email"
+                    placeholder="johndoe@example.com"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="second-sect-hori">
+                  <hr />
+                </div>
+              </div>
+
+              <div class="third-sect3">
+                <div class="third-sect3-first-div">
+                  <p>
+                    <img src="assests/image/number-5433251_1280.png" alt="number 1">
+                  </p>
+                  <h4>Your payment information</h4>
+                </div>
+                <div class="third-sect3-second-div">
+                  <label for="card-number">Credit Card</label>
+                  <input
+                    type="text"
+                    name="card-number"
+                    id="card-number"
+                    maxlength="19"
+                    oninput="this.value = this.value.replace(/\D/g, '').replace(/(\d{4})(?=\d)/g, '$1 ')"
+                    pattern="\d{4}\s\d{4}\s\d{4}\s\d{4}"
+                    placeholder="Card Number"
+                    required
+                  />
+                </div>
+                <div class="third-sect3-second-div-hori">
+                  <hr />
+                </div>
+              </div>
+
+              <div class="fourth-sect4">
+                <button type="submit">Buy WP Pusher</button>
+                <p class="fourth-sect4-first-p">
+                  ? <span><b>Need any help?</b></span> Don't hesitate to contact
+                  support
+                </p>
+                <p class="fourth-sect4-second-p"> Powered by <b>Stripe</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- right div -->
+        <div class="right-main">
+          <div class="right-main-first-div">
+            <h3>Freelancer</h3>
+            <p><sup>$</sup> <span class="right-main-first-div-span">99</span> <span>/year</span></p>
+            <p><i>Automatically renews after 1 year</i></p>
+          </div>
+          <div class="right-main-scond-div">
+            <p><span>@</span> Use on 5 client sites</p>
+            <p><span>@</span> Private repositories</p>
+            <p><span>@</span> Email support</p>
+          </div>
+          <div class="right-main-third-div">
+            <p>Need <b>20</b> client sites?</p>
+            <p>
+              <b class="right-main-third-div-second-p">Switch to the <i>Agency</i> plan.</b>
+            </p>
+            <hr />
+          </div>
+          <div class="right-main-fourth-div">
+            <div class="right-main-fourth-div1">
+              <p><i>FTP is horrible to deal with.</i></p>
+              <p>
+                <i
+                  ><b>WP Pusher</b> solves that issue, and the customer support
+                  is awesome!</i
+                >
+              </p>
+            </div>
+            <div class="right-main-fourth-div2">
+              <img src="assests/image/20230619_083913.jpg" alt="picture" />
+              <p>Kirk Beard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2025 WP Pusher IVS. <span>Terms of Service</span></p>
+      </div>
+    </div>
+  </body>
+</html>
