@@ -1,0 +1,9 @@
+[submodule "fifthcssassignment"]
+	path = fifthcssassignment
+	url = git@github.com:omokarogabriel/cssfifthassignment.git
+[submodule "thirdcssassignment"]
+	path = thirdcssassignment
+	url = git@github.com:omokarogabriel/cssthirdassignment.git
+[submodule "cssfourthassignment"]
+	path = cssfourthassignment
+	url = git@github.com:omokarogabriel/cssfourthassignment.git
