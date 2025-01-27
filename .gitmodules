@@ -7,3 +7,12 @@
 [submodule "cssfourthassignment"]
 	path = cssfourthassignment
 	url = git@github.com:omokarogabriel/cssfourthassignment.git
+[submodule "firstcssassignment"]
+	path = firstcssassignment
+	url = git@github.com:omokarogabriel/cssfirstassignment.git
+[submodule "secondcssassignment"]
+	path = secondcssassignment
+	url = git@github.com:omokarogabriel/csssecondassignment.git
+[submodule "csssixthassignment"]
+	path = csssixthassignment
+	url = git@github.com:omokarogabriel/csssixthassignment.git
