@@ -503,7 +503,16 @@
 
     /* ninth-main */
     .ninth-main {
-      background-color: slategray;
+      background-color: darkslategray;
+      background-image: 
+        url('/assests/form-Vector1.svg'),  /* First SVG */
+        url('/assests/form-Vector2.svg'),  /* Second SVG */
+        url('/assests/form-Vector3.svg'),  /* Third SVG */
+        url('/assests/form-Vector4.svg'),  /* Fourth SVG */
+        url('/assests/form-Vector5.svg');
+      background-size: 400px 400px, 300px 400px, 500px 500px, 150px 150px, 400px 200px;  /* Different sizes for each SVG */
+      background-position: left top, left top, center center, right bottom, right bottom;  /* Different positions for each */
+      background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;  /* No repeat for all */
       padding: 50px 400px;
 
       .ninth-main-form {
